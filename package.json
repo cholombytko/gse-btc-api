@@ -1,0 +1,25 @@
+{
+  "name": "gse-btc-api",
+  "version": "1.0.0",
+  "description": "based btc api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cholombytko/gse-btc-api.git"
+  },
+  "author": "cholombytko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cholombytko/gse-btc-api/issues"
+  },
+  "homepage": "https://github.com/cholombytko/gse-btc-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.9",
+    "nodemailer": "^6.7.7"
+  }
+}
