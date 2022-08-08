@@ -28,7 +28,7 @@ exports.apiSendEmails = async (req, res) => {
       from: dataJson.user,
       to: line,
       subject: 'BTC currency',
-      text: `Current BTC govno to UAH: ${currentRate['price']}`,
+      text: `Current BTC cringe to UAH: ${currentRate['price']}`,
     }).then(info => {
       console.log(info);
     }).catch(console.error);
